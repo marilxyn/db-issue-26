@@ -1,0 +1,80 @@
+/* Global styles */
+a {
+    text-decoration: none;
+}
+
+/* Mobile menu styles */
+.close-btn-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    border: 2px blue;
+}
+
+.mobileMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid green;
+    position: absolute;
+    z-index: 1;
+    /* i just made it this color for now so we can see */
+    background-color: tomato;
+    top: 0px;
+    right: 0px;
+    width: 30vh;
+}
+
+/* Issue landing styles */
+#issue-landing-body {
+    height: 100vh;
+    border: 2px solid blue;
+}
+
+#main-container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#main-container a {
+    border: 2px solid purple;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Born-Digital styles */
+#born-digital-body {
+    height: 100vh;
+    border: 2px solid blue;
+}
+
+.floatingNav {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    align-items: center;
+}
+
+.floatingNav video {
+    width: 124px;
+    height: 124px;
+}
+
+/* Footer styles */
+footer {
+    border: 2px solid green;
+    padding: 20px;
+    text-align: center;
+}
